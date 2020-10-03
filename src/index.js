@@ -15,6 +15,5 @@ exports.avg = function avg (array) {
  for (let x = 0; x < array.length; x++) {
  avgNumber += array[x]
  }
-avgNumber = avgNumber/array.length
-   return avgNumber;
+   return avgNumber/array.length;
 }
